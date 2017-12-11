@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38181" started-at="2017-12-11T08:27:27Z" finished-at="2017-12-11T08:28:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38181" started-at="2017-12-11T08:27:27Z" finished-at="2017-12-11T08:28:05Z">
+      <class name="TravelP.TravelAgency.Login">
+        <test-method status="PASS" signature="logiIN()[pri:0, instance:TravelP.TravelAgency.Login@661972b0]" name="logiIN" duration-ms="26068" started-at="2017-12-11T13:57:27Z" finished-at="2017-12-11T13:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logiIN -->
+        <test-method status="PASS" signature="blankdata()[pri:0, instance:TravelP.TravelAgency.Login@661972b0]" name="blankdata" duration-ms="2237" started-at="2017-12-11T13:57:53Z" finished-at="2017-12-11T13:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankdata -->
+        <test-method status="FAIL" signature="Wrongdata()[pri:0, instance:TravelP.TravelAgency.Login@661972b0]" name="Wrongdata" duration-ms="343" started-at="2017-12-11T13:57:56Z" finished-at="2017-12-11T13:57:56Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at TravelP.TravelAgency.Login.Wrongdata(Login.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Wrongdata -->
+        <test-method status="PASS" signature="Correctdata(java.lang.String, java.lang.String)[pri:0, instance:TravelP.TravelAgency.Login@661972b0]" name="Correctdata" duration-ms="5038" started-at="2017-12-11T13:57:56Z" data-provider="getdata" finished-at="2017-12-11T13:58:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raju@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Correctdata -->
+        <test-method status="PASS" signature="Correctdata(java.lang.String, java.lang.String)[pri:0, instance:TravelP.TravelAgency.Login@661972b0]" name="Correctdata" duration-ms="4457" started-at="2017-12-11T13:58:01Z" data-provider="getdata" finished-at="2017-12-11T13:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hitesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Correctdata -->
+      </class> <!-- TravelP.TravelAgency.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
